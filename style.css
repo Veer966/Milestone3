@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+}
+h1{
+    font-family: Cambria;
+    color: black;
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Home {
+    /* Flexbox properties to center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+
+#veer {
+    width: 250px;
+    border-radius: 100px;
+
+}
+
+div .element{
+    font-family: Cambria;
+    background-color: black;
+    color: gold;
+    font-size: 32px;
+    padding: 5px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 100px;
+}
+
+.element:hover {
+    background-color: white;
+    color: rgb(71, 171, 218);
+    cursor: grab;
+}
+
+.element {
+    color:white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
